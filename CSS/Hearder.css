@@ -20,7 +20,6 @@ a{
     justify-content: space-between;
     align-items: center;
     background-color: #f66e6e;
-    /* box-shadow: 0 0 10px; */
     border-bottom: 5px solid rgb(208, 99, 99) ;
 }
 
@@ -38,3 +37,8 @@ a{
 .navbar-menu li{
     padding: 8px 12px;
 }
+
+img {
+    margin-left: auto;
+    display: block;
+   }
