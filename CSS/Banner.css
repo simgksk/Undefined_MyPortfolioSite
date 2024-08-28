@@ -10,27 +10,38 @@
     border-bottom: 5px solid #a093c8 ;
     display: flex;
     flex-direction: column;
-    padding-left: 50px;
   }
   
-  .banner > h1 > span{
-    font-family: 'Cafe24Decoshadow';
-    text-align: center;
+  .banner > .animation{
+    margin: auto;
+    display: block;
+    padding: 50px;
+  }
+  
+  .banner > .introduction{
+    margin: auto;
+    display: block;
+    padding: 50px;
   }
 
   .banner > img{
     width: 100px;
     margin: auto;
     display: block;
+    padding: 50px;
   }
 
-  h1 span {
+  .more{
+    text-align: center;
+  }
+
+  .animation span{
     text-align: center;
     position: relative;
     top: 20px;
     display: inline-block;
     animation: bounce .3s ease infinite alternate;
-    font-family: 'Titan One', cursive;
+    font-family: 'Cafe24Decoshadow';
     font-size: 80px;
     color: #FFF;
     text-shadow: 0 1px 0 #CCC,
