@@ -6,8 +6,11 @@
 }
 
 body{
-    font-family: 'HSSanTokki20-Regular';
     margin: 0;
+}
+
+body > .navbar{
+    font-family: 'HSSanTokki20-Regular';
 }
 
 a{
@@ -19,8 +22,8 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #f66e6e;
-    border-bottom: 5px solid rgb(208, 99, 99) ;
+    background-color: #b8a7ea;
+    border-bottom: 5px solid #9e8fca ;
 }
 
 .navbar-logo{
@@ -38,7 +41,7 @@ a{
     padding: 8px 12px;
 }
 
-img {
-    margin-left: auto;
+.header > .img-welcome {
+    margin-right: 50px;
     display: block;
    }
