@@ -48,7 +48,6 @@
     font-family: 'locus_sangsang';
     font-size: 20px;
     text-align: center;
-    color: white;
     margin: auto;
     display: block;
     
@@ -57,7 +56,10 @@
     border-radius: 100px;
 
     width: 150px;
-    /* height: 0px; */
+  }
+
+  .more-button > a{
+    color: white;
   }
 
   .animation{

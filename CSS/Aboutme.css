@@ -5,13 +5,13 @@
     font-style: normal;
 }
 
-.aboutme > .arrowDown{
+.about-me > .arrowDown{
     margin: auto;
     display: block;
     height: 100px;
 }
 
-.aboutme > h1{
+.about-me > h1{
     font-family: 'WavvePADO-Regular';
     text-align: center;
     font-size: 50px;
