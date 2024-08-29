@@ -16,3 +16,12 @@
     text-align: center;
     font-size: 50px;
 }
+
+.info-box{
+    background-color: white;
+    width: 1000px;
+    height: 300px;
+
+    margin: auto;
+    display: block;
+}
