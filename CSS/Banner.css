@@ -24,9 +24,15 @@
   }
 
  .animation{
-    margin: auto;
-    display: block;
-    padding: 50px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .contour{
+    border-top: 5px solid #7662b4;
+    margin: 30px auto;
+    width: 300px;
+    padding: 10px;
   }
   
  .introduction{
@@ -40,7 +46,7 @@
   
   .more-button{
     font-family: 'locus_sangsang';
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
     color: white;
     margin: auto;
@@ -49,6 +55,9 @@
     padding: 20px 50px 20px 50px;
     background-color: #7662b4;
     border-radius: 100px;
+
+    width: 150px;
+    /* height: 0px; */
   }
 
   .animation{
@@ -57,7 +66,6 @@
   }
 
   .animation span{
-    text-align: center;
     position: relative;
     top: 20px;
     display: inline-block;
