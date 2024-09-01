@@ -23,11 +23,44 @@
     padding: 50px;
   }
 
- .animation{
-    padding: 20px;
-    text-align: center;
+  .animation{
+    width: 100%;  
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Cafe24Decoshadow';
+    font-size: 80px;
+    color: #FFF;
+    min-width:11px;
+  white-space: nowrap;
+    
+  }
+  
+  .animation::before{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: black;
+    overflow: hidden;
+    border-right: 1px solid black;
+    animation: typing 5s steps(31) infinite;
+
   }
 
+  @keyframes typing{
+    0% {
+      width: 0%;
+    }
+    50% {
+      width: 100%;
+    }
+    100% {
+      width: 0%;
+    }
+  }
+  
   .contour{
     border-top: 5px solid #7662b4;
     margin: 30px auto;
@@ -62,59 +95,4 @@
     color: white;
   }
   
-  .animation{
-    margin: auto;
-    display: block;
-    /* position: relative; */
-    top: 20px;
-    display: inline-block;
-    animation: bounce .3s ease infinite alternate;
-    font-family: 'Cafe24Decoshadow';
-    font-size: 80px;
-    color: #FFF;
-    text-shadow: 0 1px 0 #CCC,
-                 0 2px 0 #CCC,
-                 0 3px 0 #CCC,
-                 0 4px 0 #CCC,
-                 0 5px 0 #CCC,
-                 0 6px 0 transparent,
-                 0 7px 0 transparent,
-                 0 8px 0 transparent,
-                 0 9px 0 transparent,
-                 0 10px 10px rgba(0, 0, 0, .4);
-
-    overflow: hidden;
-    white-space: nowrap;
-    animation: typing 4s steps(40, end);
-  }
-  
-  h1 span:nth-child(2) { animation-delay: .1s; }
-  h1 span:nth-child(3) { animation-delay: .2s; }
-  h1 span:nth-child(4) { animation-delay: .3s; }
-  h1 span:nth-child(5) { animation-delay: .4s; }
-  h1 span:nth-child(6) { animation-delay: .5s; }
-  h1 span:nth-child(7) { animation-delay: .6s; }
-  h1 span:nth-child(8) { animation-delay: .7s; }
-  h1 span:nth-child(9) { animation-delay: .8s; }
-  h1 span:nth-child(10) { animation-delay: .9s; }
-  h1 span:nth-child(11) { animation-delay: .10s; }
-  
-  @keyframes typing {
-    /* 100% {
-      top: -20px;
-      text-shadow: 0 1px 0 #CCC,
-                   0 2px 0 #CCC,
-                   0 3px 0 #CCC,
-                   0 4px 0 #CCC,
-                   0 5px 0 #CCC,
-                   0 6px 0 #CCC,
-                   0 7px 0 #CCC,
-                   0 8px 0 #CCC,
-                   0 9px 0 #CCC,
-                   0 50px 25px rgba(0, 0, 0, .2);
-    } */
-
-    from{width: 0;}
-    to{width: 100%;}
-
-  }
+ 
