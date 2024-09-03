@@ -23,43 +23,75 @@
     padding: 50px;
   }
 
-  .animation{
-    display: block;
-    margin: auto;
-    text-align: center;
-    padding: 50px;
+  .animation {
     font-size: 80px;
-    font-family: 'Cafe24Decoshadow';
-
-    border-right: 3px solid #62548d;
-    white-space: nowrap; /* 텍스트가 줄 바꿈 없이 한 줄에 표시되도록 설정 */
-    overflow: hidden;
-    animation: typing 5s steps(30, end) infinite, blink 0.75s step-end infinite;
-
-
-    color: #FFF;
-    text-shadow: 0 1px 0 #CCC,
-                0 2px 0 #CCC,
-                0 3px 0 #CCC,
-                0 4px 0 #CCC,
-                0 5px 0 #CCC,
-                0 6px 0 transparent,
-                0 7px 0 transparent,
-                0 8px 0 transparent,
-                0 9px 0 transparent,
-                0 10px 10px rgba(0, 0, 0, .4);
+    font-family:'Cafe24Decoshadow';
+    user-select:none;
+    text-align: center;
   }
 
-  @keyframes typing {
-    0% { width: 0ch; }
-    50% { width: 27ch; } /* 텍스트 전체 길이 */
-    100% { width: 0ch; }
+  .animation > span {
+    display:inline-block; 
+    animation:float .2s ease-in-out infinite; 
+  }
+  .animation:hover span {
+    animation:bounce .6s; 
+   }
+
+@keyframes float {
+  0%, 100% { transform: none; }
+  33% { transform: translateY(-1px) rotate(-2deg); }
+  66% { transform: translateY(1px) rotate(2deg); }
 }
 
-@keyframes blink {
-    from, to { border-color: transparent; }
-    50% { border-color: #62548d; }
+@keyframes bounce {
+  0%, 100% { transform: translate(0); }
+  25% { transform: rotateX(20deg) translateY(2px) rotate(-3deg); }
+  50% { transform: translateY(-20px) rotate(3deg) scale(1.1); }
 }
+
+.animation > span:nth-child(4n) { 
+  color: hsl(50, 75%, 55%);
+  text-shadow: 1px 1px hsl(50, 75%, 45%),
+               2px 2px hsl(50, 45%, 45%),
+               3px 3px hsl(50, 45%, 45%),
+               4px 4px hsl(50, 75%, 45%);
+}
+
+.animation > span:nth-child(4n-1) { 
+  color: hsl(135, 35%, 55%);
+  text-shadow: 1px 1px hsl(135, 35%, 45%),
+               2px 2px hsl(135, 35%, 45%),
+               3px 3px hsl(135, 35%, 45%),
+               4px 4px hsl(135, 35%, 45%);
+}
+
+.animation > span:nth-child(4n-2) { 
+  color: hsl(155, 35%, 60%);
+  text-shadow: 1px 1px hsl(155, 25%, 50%),
+               2px 2px hsl(155, 25%, 50%),
+               3px 3px hsl(155, 25%, 50%),
+               4px 4px hsl(140, 25%, 50%);
+}
+
+.animation > span:nth-child(4n-3) { 
+  color: hsl(30, 65%, 60%);
+  text-shadow: 1px 1px hsl(30, 45%, 50%),
+               2px 2px hsl(30, 45%, 50%),
+               3px 3px hsl(30, 45%, 50%),
+               4px 4px hsl(30, 45%, 50%);
+}
+
+.animation span:nth-child(2) { animation-delay: .05s; }
+.animation span:nth-child(3) { animation-delay: .1s; }
+.animation span:nth-child(4) { animation-delay: .15s; }
+.animation span:nth-child(5) { animation-delay: .2s; }
+.animation span:nth-child(6) { animation-delay: .25s; }
+.animation span:nth-child(7) { animation-delay: .3s; }
+.animation span:nth-child(8) { animation-delay: .35s; }
+.animation span:nth-child(9) { animation-delay: .4s; }
+.animation span:nth-child(10) { animation-delay: .45s; }
+.animation span:nth-child(11) { animation-delay: .5s; }
   
   .contour{
     border-top: 5px solid #7662b4;
