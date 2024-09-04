@@ -1,17 +1,17 @@
 @font-face {
-    font-family: 'HSSanTokki20-Regular';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2405@1.0/HSSanTokki20-Regular.woff2') format('woff2');
-    font-weight: normal;
+    font-family: 'TTHakgyoansimMoheomgaB';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2402_keris@1.0/TTHakgyoansimMoheomgaB.woff2') format('woff2');
+    font-weight: 700;
     font-style: normal;
 }
 
 body{
     margin: 0;
-    background-color: #b8a7ea;
+    background-color: #7A9ACB;
 }
 
 body > .navbar{
-    font-family: 'HSSanTokki20-Regular';
+    font-family: 'TTHakgyoansimMoheomgaB';
     position: fixed;
     top: 0;
     left: 0;
@@ -27,8 +27,8 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #b8a7ea;
-    border-bottom: 5px solid #9e8fca ;
+    background-color: #7A9ACB;
+    border-bottom: 5px solid #5a7eb4 ;
 }
 
 .navbar-logo{

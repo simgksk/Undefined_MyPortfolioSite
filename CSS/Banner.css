@@ -6,15 +6,15 @@
 }
 
 @font-face {
-  font-family: 'locus_sangsang';
-  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/locus_sangsang.woff') format('woff');
+  font-family: 'EF_Rebecca';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-EF@1.0/EF_Rebecca.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
   
   .banner-layout{
-    background-color: #c4b0e3;
-    border-bottom: 5px solid #a093c8 ;
+    background-color: #FCF7F4;
+    border-bottom: 5px solid #5a7eb4 ;
     display: flex;
     flex-direction: column;
     padding: 50px;
@@ -25,72 +25,19 @@
     display: block;
   }
 
-  .animation{
-    padding: 50px;
+  .typing-text{
+    font-family: 'EF_Rebecca';
   }
-
-.neon {
-  font-family: Cafe24Decoshadow;
-  color: #FB4264;
-  font-size: 80px;
-  line-height: 80px;
-  text-shadow: 0 0 1px #F40A35;
-}
-
-.flux {
-  font-family: Cafe24Decoshadow;
-  color: #426DFB;
-  font-size: 80px;
-  line-height: 80px;
-  text-shadow: 0 0 1px #2356FF;
-}
-
-.neon {
-  animation: neon 1s ease infinite;
-  -moz-animation: neon 1s ease infinite;
-  -webkit-animation: neon 1s ease infinite;
-}
-
-@keyframes neon {
-  0%,
-  100% {
-    text-shadow: 0 0 1vw #FA1C16, 0 0 3vw #FA1C16, 0 0 10vw #FA1C16, 0 0 10vw #FA1C16, 0 0 .4vw #FED128, .5vw .5vw .1vw #806914;
-    color: #FED128;
-  }
-  50% {
-    text-shadow: 0 0 .5vw #800E0B, 0 0 1.5vw #800E0B, 0 0 5vw #800E0B, 0 0 5vw #800E0B, 0 0 .2vw #800E0B, .5vw .5vw .1vw #40340A;
-    color: #806914;
-  }
-}
-
-.flux {
-  animation: flux 2s linear infinite;
-  -moz-animation: flux 2s linear infinite;
-  -webkit-animation: flux 2s linear infinite;
-  -o-animation: flux 2s linear infinite;
-}
-
-@keyframes flux {
-  0%,
-  100% {
-    text-shadow: 0 0 1vw #1041FF, 0 0 3vw #1041FF, 0 0 10vw #1041FF, 0 0 10vw #1041FF, 0 0 .4vw #8BFDFE, .5vw .5vw .1vw #147280;
-    color: #28D7FE;
-  }
-  50% {
-    text-shadow: 0 0 .5vw #082180, 0 0 1.5vw #082180, 0 0 5vw #082180, 0 0 5vw #082180, 0 0 .2vw #082180, .5vw .5vw .1vw #0A3940;
-    color: #146C80;
-  }
-}
   
   .contour{
-    border-top: 5px solid #7662b4;
+    border-top: 5px solid #7A9ACB;
     margin: auto;
     width: 300px;
     padding: 10px;
   }
   
  .introduction{
-    font-family: 'locus_sangsang';
+    font-family: 'EF_Rebecca';
     font-size: 20px;
     margin: auto;
     display: block;
@@ -99,14 +46,14 @@
   }
   
   .more-button{
-    font-family: 'locus_sangsang';
+    font-family: 'EF_Rebecca';
     font-size: 20px;
     text-align: center;
     margin: auto;
     display: block;
     
     padding: 20px 50px 20px 50px;
-    background-color: #7662b4;
+    background-color: #7A9ACB;
     border-radius: 100px;
 
     width: 150px;
