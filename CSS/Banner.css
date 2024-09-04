@@ -1,6 +1,6 @@
 @font-face {
-  font-family: 'Cafe24Decoshadow';
-  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2405-3@1.1/Cafe24Decoshadow.woff2') format('woff2');
+  font-family: 'Cafe24ClassicType-Regular';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-2@1.0/Cafe24ClassicType-Regular.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
@@ -15,7 +15,8 @@
   .banner-layout{
     background-color: #FCF7F4;
     border-bottom: 5px solid #5a7eb4 ;
-    display: flex;
+    display: block;
+    margin: auto;
     flex-direction: column;
     padding: 50px;
   }
@@ -25,13 +26,44 @@
     display: block;
   }
 
+  .typing-banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 0;
+  }
+
   .typing-text{
-    font-family: 'EF_Rebecca';
+    font-family: 'Cafe24ClassicType-Regular';
+    font-size: 80px;
+    text-align: center;
+    color: #5a7eb4;
+    border-right: 3px solid black;
+    animation: blink .5s infinite, typing 3s steps(22);
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  @keyframes blink{
+    50%{
+      border-color: transparent;
+    }
+  }
+
+  @keyframes typing{
+    from{
+      width: 0;
+    }
+    to{
+      width: 100%;
+    }
   }
   
   .contour{
     border-top: 5px solid #7A9ACB;
     margin: auto;
+    display: block;
     width: 300px;
     padding: 10px;
   }
@@ -41,7 +73,7 @@
     font-size: 20px;
     margin: auto;
     display: block;
-    padding: 30px;
+    padding: 50px;
     text-align: center;
   }
   
