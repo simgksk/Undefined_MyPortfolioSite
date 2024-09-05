@@ -19,11 +19,13 @@
     margin: auto;
     flex-direction: column;
     padding: 50px;
+    
   }
 
   .banner{
     margin: auto;
     display: block;
+    
   }
 
   .typing-banner{

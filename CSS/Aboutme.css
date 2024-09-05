@@ -5,6 +5,20 @@
     font-style: normal;
 }
 
+
+.name{
+    font-family: 'EF_Rebecca';
+    margin: 0;
+    padding: 40px 0 10px 0;
+    font-size: 30px;
+    color: #FCF7F4;
+}
+
+.name2{
+    font-family: 'EF_Rebecca';
+    color: #FCF7F4;
+}
+
 .about-me{
     padding: 50px;
 }
@@ -15,13 +29,29 @@
     font-size: 50px;
 }
 
-.info-box{
-    background-color: white;
-    width: 1000px;
-    height: 500px;
+.hilight{
+    box-shadow: inset 0 -20px 0 #45679a; 
+}
 
-    display: block;
-    margin: auto;
+img{
 
-    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    padding: 30px;
+}
+
+.about-me-name-box{
+    display: flex;
+}
+
+.info-name{
+    text-align: center;
+}
+
+.about-me-birthday-box{
+    display: flex;
+}
+
+.info-birthday{
+    text-align: center;
 }
