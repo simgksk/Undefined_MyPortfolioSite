@@ -6,17 +6,19 @@
 }
 
 
-.name{
+.about-title{
     font-family: 'EF_Rebecca';
     margin: 0;
     padding: 40px 0 10px 0;
     font-size: 30px;
     color: #FCF7F4;
+    text-align: left;
 }
 
-.name2{
+.about-contents{
     font-family: 'EF_Rebecca';
     color: #FCF7F4;
+    text-align: left;
 }
 
 .about-me{
@@ -40,18 +42,11 @@ img{
     padding: 30px;
 }
 
-.about-me-name-box{
+.about-me-info{
     display: flex;
 }
 
-.info-name{
+.info{
     text-align: center;
 }
 
-.about-me-birthday-box{
-    display: flex;
-}
-
-.info-birthday{
-    text-align: center;
-}
