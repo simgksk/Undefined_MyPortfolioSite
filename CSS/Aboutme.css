@@ -42,8 +42,14 @@ img{
     padding: 30px;
 }
 
+.first{
+    display: flex;
+    margin: auto;
+}
+
 .about-me-info{
     display: flex;
+    padding: 100px;
 }
 
 .info{
