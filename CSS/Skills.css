@@ -5,19 +5,34 @@
     font-style: normal;
 }
 
-#skills
+#skills-background{
+    background-color: #7194c7;
+}
+
+#skills-background > #skills
  {
     font-family: 'EF_Rebecca';
     color: #FCF7F4;
 }
 
-#skills > .skills-text{
+#skills-background > #skills > .skills-text{
     font-family: 'EF_Rebecca';
     text-align: center;
     font-size: 50px;
-    margin: 50px;
+    padding: 50px;
 }
 
-#skills > .skills-text > .hilight{
+#skills-background > #skills > .skills-text > .hilight{
     box-shadow: inset 0 -20px 0 #45679a; 
+}
+
+#skills-background > #skills > .skills-box{
+    width: 1000px;
+    height: 500px;
+
+    background-color: #FCF7F4;
+    border-radius: 10px;
+
+    display: flex;
+    margin: auto;
 }
