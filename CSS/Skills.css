@@ -36,3 +36,8 @@
     display: flex;
     margin: auto;
 }
+
+#skills-background > #skills > .skills-box > img{
+    width: 100px;
+    height: 100px;
+}
