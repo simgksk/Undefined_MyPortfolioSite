@@ -40,4 +40,8 @@
 #skills-background > #skills > .skills-box > img{
     width: 100px;
     height: 100px;
+
+    padding-inline: 50px;
+    margin: auto;
+
 }
