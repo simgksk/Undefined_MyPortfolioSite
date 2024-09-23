@@ -30,14 +30,18 @@
     width: 1000px;
     height: 500px;
 
-    background-color: #FCF7F4;
-    border-radius: 10px;
+    /* background-color: #FCF7F4;
+    border-radius: 10px; */
 
     display: flex;
     margin: auto;
 }
 
-#skills-background > #skills > .skills-box > img{
+#skills-background > #skills > .skills-box > div{
+    display: inline-block;
+}
+
+#skills-background > #skills > .skills-box > div > img{
     width: 100px;
     height: 100px;
 
