@@ -27,25 +27,25 @@
 }
 
 #skills-background > #skills > .skills-box{
-    width: 1000px;
-    height: 500px;
+    /* width: 1000px;
+    height: 500px; */
 
     /* background-color: #FCF7F4;
     border-radius: 10px; */
 
-    display: flex;
-    margin: auto;
+    /* display: flex;
+    margin: auto; */
 }
 
 #skills-background > #skills > .skills-box > div{
-    display: inline-block;
+    display: flex;
+}
+
+#skills-background > #skills > .skills-box > div > div > h1{
+    size: 10px;
 }
 
 #skills-background > #skills > .skills-box > div > img{
     width: 100px;
     height: 100px;
-
-    padding-inline: 50px;
-    margin: auto;
-
 }
