@@ -27,18 +27,13 @@
 }
 
 #skills-background > #skills > .skills-box{
-    /* width: 1000px;
-    height: 500px; */
-
-    /* background-color: #FCF7F4;
-    border-radius: 10px; */
-
-    /* display: flex;
-    margin: auto; */
+    display: flex;
+    justify-content: center;
 }
 
 #skills-background > #skills > .skills-box > div{
     display: flex;
+    padding: 50px;
 }
 
 #skills-background > #skills > .skills-box > div > div > h1{
