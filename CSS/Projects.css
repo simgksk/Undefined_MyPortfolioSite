@@ -32,18 +32,24 @@
     align-items: center;
 }
 
-#Projects-background > #Projects > .Projects-container > img{
+#Projects-background > #Projects > .Projects-container > button{
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#Projects-background > #Projects > .Projects-container > button > img{
     width: 100px;
     height: 100px;
 
     filter: invert();
 }
 
-#Projects-background > #Projects > .Projects-container > .left{
+#Projects-background > #Projects > .Projects-container > button > .left{
     margin-left: 50px;
 }
 
-#Projects-background > #Projects > .Projects-container > .right{
+#Projects-background > #Projects > .Projects-container > button > .right{
     margin-right: 50px;
 }
 
