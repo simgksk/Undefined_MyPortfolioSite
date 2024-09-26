@@ -35,6 +35,8 @@
 #Projects-background > #Projects > .Projects-container > img{
     width: 100px;
     height: 100px;
+
+    filter: invert();
 }
 
 #Projects-background > #Projects > .Projects-container > .left{
