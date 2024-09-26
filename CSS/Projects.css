@@ -27,7 +27,25 @@
     box-shadow: inset 0 -20px 0 #45679a; 
 }
 
-#Projects-background > #Projects > .Projects-box{
+#Projects-background > #Projects > .Projects-container{
+    display: flex;
+    align-items: center;
+}
+
+#Projects-background > #Projects > .Projects-container > img{
+    width: 100px;
+    height: 100px;
+}
+
+#Projects-background > #Projects > .Projects-container > .left{
+    margin-left: 50px;
+}
+
+#Projects-background > #Projects > .Projects-container > .right{
+    margin-right: 50px;
+}
+
+#Projects-background > #Projects > .Projects-container > .Projects-box{
     width: 900px;
     height: 400px;
 
