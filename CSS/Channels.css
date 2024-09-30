@@ -32,7 +32,7 @@
     justify-content: center;
 }
 
-#Channels-background > #Channels > .Channels-container > div{
+#Channels-background > #Channels > .Channels-container > a > div{
     width: 450px;
     height: 210px;
 
@@ -43,20 +43,23 @@
     display: flex;
 
     cursor: pointer;
+
+    align-items: center;
+
 }
 
-#Channels-background > #Channels > .Channels-container > div > img{
-    width: 200px;
-    height: 200px;
-    top: 10%;
+#Channels-background > #Channels > .Channels-container > a > div > img{
+    width: 150px;
+    height: 150px;
+    margin: 20px;
 }
 
-#Channels-background > #Channels > .Channels-container > div > span{
+#Channels-background > #Channels > .Channels-container> a > div > div > h1{
     color: #7194c7;
     font-size: 30px;
     display: block;
 }
 
-#Channels-background > #Channels > .Channels-container > div > p{
+#Channels-background > #Channels > .Channels-container > a > div > div > p{
     color: #7194c7;
 }
