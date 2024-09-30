@@ -26,3 +26,37 @@
 #Channels-background > #Channels > .Channels-text > .hilight{
     box-shadow: inset 0 -20px 0 #45679a; 
 }
+
+#Channels-background > #Channels > .Channels-container{
+    display: flex;
+    justify-content: center;
+}
+
+#Channels-background > #Channels > .Channels-container > div{
+    width: 450px;
+    height: 210px;
+
+    background-color: #FCF7F4;
+    border-radius: 10px;
+
+    margin: 20px;
+    display: flex;
+
+    cursor: pointer;
+}
+
+#Channels-background > #Channels > .Channels-container > div > img{
+    width: 200px;
+    height: 200px;
+    top: 10%;
+}
+
+#Channels-background > #Channels > .Channels-container > div > span{
+    color: #7194c7;
+    font-size: 30px;
+    display: block;
+}
+
+#Channels-background > #Channels > .Channels-container > div > p{
+    color: #7194c7;
+}
