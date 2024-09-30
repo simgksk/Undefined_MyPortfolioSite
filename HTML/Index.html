@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="../CSS/Skills.css">
     <link rel="stylesheet" href="../CSS/Projects.css">
     <link rel="stylesheet" href="../CSS/Channels.css">
+
+    <script src="../JS/SkillsButton.js"></script>
     <title>HANA SIM</title>
 </head>
 <body>
@@ -104,24 +106,24 @@
             </div>
 
             <div class="skills-btn">
-                <button>
+                <button onclick="showContent('language')">
                     Languages
                 </button>
-                <button>
+                <button onclick="showContent('tool')">
                     Tools
                 </button>
-                <button>
+                <button onclick="showContent('document')">
                     Documents
                 </button>
-                <button>
+                <button onclick="showContent('design')">
                     Designs
                 </button>
-                <button>
-                    Cooperations
+                <button onclick="showContent('communication')">
+                    Communication
                 </button>
             </div>
 
-            <section>
+            <section id="skill-Language">
                 
                 <div>
                     <img src="../Images/Skills/Language/HTML_logo.png" alt="">
@@ -157,7 +159,7 @@
                 
             </section>
 
-            <section>
+            <section id="skill-Document">
                 
                 <div>
                     <img src="../Images/Skills/Document/Word_logo.png" alt="">
@@ -185,7 +187,7 @@
                 
             </section>
 
-            <section>
+            <section id="skill-Tool">
                 
                 <div>
                     <img src="../Images/Skills/Tools/Unity_logo.png" alt="">
@@ -213,10 +215,10 @@
                 
             </section>
 
-            <section>
+            <section id="skill-Communication">
                 
                 <div>
-                    <img src="../Images/Skills/Cooperation/Notion_logo.png" alt="">
+                    <img src="../Images/Skills/Communication/Notion_logo.png" alt="">
                     <div>
                         <h1>Notion</h1>
                         <p>⭐⭐⭐⭐⭐</p>
@@ -224,7 +226,7 @@
                 </div>
                 
                 <div>
-                    <img src="../Images/Skills/Cooperation/Githubdesktop_logo.png" alt="">
+                    <img src="../Images/Skills/Communication/Githubdesktop_logo.png" alt="">
                     <div>
                         <h1>Github Desktop</h1>
                         <p>⭐⭐⭐</p>
@@ -232,7 +234,7 @@
                 </div>
                 
                 <div>
-                    <img src="../Images/Skills/Cooperation/Fork_logo.png" alt="">
+                    <img src="../Images/Skills/Communication/Fork_logo.png" alt="">
                     <div>
                         <h1>Fork</h1>
                         <p>⭐⭐</p>
@@ -241,7 +243,7 @@
                 
             </section>
 
-            <section>
+            <section id="skill-Design">
                 
                 <div>
                     <img src="../Images/Skills/Design/Figma_logo.png" alt="">
