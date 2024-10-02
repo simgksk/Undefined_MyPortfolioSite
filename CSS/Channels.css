@@ -55,11 +55,12 @@
 }
 
 #Channels-background > #Channels > .Channels-container> a > div > div > h1{
-    color: #7194c7;
-    font-size: 30px;
+    color: #45679a;
+    font-size: 20px;
     display: block;
 }
 
 #Channels-background > #Channels > .Channels-container > a > div > div > p{
     color: #7194c7;
+    font-size: 10px;
 }
