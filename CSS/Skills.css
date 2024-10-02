@@ -7,6 +7,9 @@
 
 #skills-background{
     background-color: #7194c7;
+
+    width: 100vw;
+    height: 100vh;
 }
 
 #skills-background > #skills
