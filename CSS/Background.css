@@ -1,0 +1,29 @@
+html{
+    height: 100vh;
+}
+
+body{
+    height: 100vh;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+.wrap{
+    position: relative;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    transition: .5s;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+
+.container:nth-child(1){background-color: #FCF7F4;}
+.container:nth-child(2){background-color: #7A9ACB;}
+.container:nth-child(3){background-color: #7194c7;}
+.container:nth-child(4){background-color: #7A9ACB;}
+.container:nth-child(5){background-color: #7194c7;}

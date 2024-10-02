@@ -4,18 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../CSS/body.css">
+    <link rel="stylesheet" href="../CSS/Background.css">
     <link rel="stylesheet" href="../CSS/Banner.css">
-    <link rel="stylesheet" href="../CSS/Hearder.css">
+    <!-- <link rel="stylesheet" href="../CSS/Hearder.css"> -->
     <link rel="stylesheet" href="../CSS/Aboutme.css">
     <link rel="stylesheet" href="../CSS/Skills.css">
     <link rel="stylesheet" href="../CSS/Projects.css">
     <link rel="stylesheet" href="../CSS/Channels.css">
 
     <script src="../JS/SkillsButton.js"></script>
+    <!-- <script src="../JS/Scroll.js"></script> -->
     <title>HANA SIM</title>
 </head>
 <body>
-    <nav class="navbar">
+    <!-- <nav class="navbar">
         <div class="navbar-logo">
             <a href="">SIMHANA's Portfolio</a>
         </div>
@@ -26,31 +28,31 @@
             <li><a href="#Channels-background">Channels</a></li>
             <li><a href="">Contect</a></li>
         </ul>
-    </nav>
+    </nav> -->
 
-    <div class="banner-layout">
-        <div class="banner">
-            <div class="typing-banner">
-                <p class="typing-text">Welcome to my portfolio site!</p>
-            </div>
+    <div class="wrap">
 
-            <div class="contour"></div>
+        <div id="banner-layout" class="container">
+            <div class="banner">
+                <div class="typing-banner">
+                    <p class="typing-text">Welcome to my portfolio site!</p>
+                </div>
     
-            <div class="introduction">
-                <span>안녕하세요.</span>
-                <br>
-                <span>개발 가능한 기획자 심하나 입니다.</span>
-            </div>
-    
-            <div class="more-button">
-                <a href="#about-me">더 알아보기 ▼</a>
+                <div class="contour"></div>
+        
+                <div class="introduction">
+                    <span>안녕하세요.</span>
+                    <br>
+                    <span>개발 가능한 기획자 심하나 입니다.</span>
+                </div>
+        
+                <div class="more-button">
+                    <a href="#about-me">더 알아보기 ▼</a>
+                </div>
             </div>
         </div>
-    </div>
-    
-    <div id="about-me-background">
-
-        <section id="about-me">
+        
+        <div id="about-me" class="container">
     
             <div class="about-me-text">
                 <span class="hilight">About Me</span>
@@ -97,12 +99,9 @@
                     <span>(2023.03 ~ 2026.01)</span>
                 </div>
             </section>
-
-        </section>
-    </div>
-
-    <div id="skills-background">
-        <section id="skills">
+        </div>
+    
+        <div id="skills" class="container">
             <div class="skills-text">
                 <span class="hilight">Skills</span>
             </div>
@@ -110,19 +109,19 @@
             <p>저는 이런 것을 이정도 다룰 수 있습니다.</p>
 
             <div class="skills-btn">
-                <button onclick="showContent('language')">
+                <button class="non-click" onclick="showContent('language')">
                     Languages
                 </button>
-                <button onclick="showContent('tool')">
+                <button class="non-click" onclick="showContent('tool')">
                     Tools
                 </button>
-                <button onclick="showContent('document')">
+                <button class="non-click" onclick="showContent('document')">
                     Documents
                 </button>
-                <button onclick="showContent('design')">
+                <button class="non-click" onclick="showContent('design')">
                     Designs
                 </button>
-                <button onclick="showContent('communication')">
+                <button class="non-click" onclick="showContent('communication')">
                     Communication
                 </button>
             </div>
@@ -273,14 +272,10 @@
                     </div>
                 </div>
                 
-            </section>
-
-        </section>
-
-    </div>
-
-    <div id="Projects-background">
-        <section id="Projects">
+            </section>    
+        </div>
+    
+        <div id="Projects" class="container">
             <div class="Projects-text">
                 <span class="hilight">Projects</span>
             </div>
@@ -300,12 +295,9 @@
                     <img src="../Images/Projects/ArrowRight_Icon.png" alt="">
                 </button>
             </section>
-
-        </section>
-    </div>
-
-    <div id="Channels-background">
-        <section id="Channels">
+        </div>
+    
+        <div id="Channels" class="container">
             <div class="Channels-text">
                 <span class="hilight">Channels</span>
             </div>
@@ -355,7 +347,7 @@
                     </div>
                 </a>
             </section>
-        </section>
+        </div>
     </div>
 
 </body>

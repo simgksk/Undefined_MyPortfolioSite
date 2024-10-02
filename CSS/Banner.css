@@ -12,14 +12,12 @@
   font-style: normal;
 }
   
-  .banner-layout{
-    background-color: #FCF7F4;
+  #banner-layout{
     border-bottom: 5px solid #5a7eb4 ;
     display: block;
     margin: auto;
     flex-direction: column;
     padding: 50px;
-    
   }
 
   .banner{
