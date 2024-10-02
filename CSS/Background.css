@@ -1,4 +1,4 @@
-html{
+/* html{
     height: 100vh;
 }
 
@@ -20,7 +20,7 @@ body{
 .container{
     width: 100vw;
     height: 100vh;
-}
+} */
 
 .container:nth-child(1){background-color: #FCF7F4;}
 .container:nth-child(2){background-color: #7A9ACB;}
