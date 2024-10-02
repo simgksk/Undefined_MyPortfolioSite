@@ -19,11 +19,17 @@
     font-family: 'EF_Rebecca';
     text-align: center;
     font-size: 50px;
-    padding: 50px;
+    padding-top: 50px;
 }
 
 #about-me-background > #about-me > .about-me-text > .hilight{
     box-shadow: inset 0 -20px 0 #45679a; 
+}
+
+#about-me-background > #about-me > p{
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
 }
 
 #about-me-background > #about-me > .about-me-container{
