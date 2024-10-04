@@ -1,12 +1,7 @@
 #Projects > .Projects-text{
-    font-family: 'EF_Rebecca';
     text-align: center;
     font-size: 50px;
     padding-top: 50px;
-}
-
-#Projects > .Projects-text > .hilight{
-    box-shadow: inset 0 -20px 0 #45679a; 
 }
 
 #Projects > p{
