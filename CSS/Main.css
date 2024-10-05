@@ -40,7 +40,4 @@ html{
 .container:nth-child(4){background-color: #5C6B81; color: #F5F5F5;}
 .container:nth-child(5){background-color: #E4E9EB;}
 .container:nth-child(6){background-color: #F5F5F5; color: #F5F5F5;}
-.container:nth-child(7){
-    background-color: #5C6B81; color: #8495af; text-align: center;
-    padding: 5px;
-}
+.container:nth-child(7){background-color: #5C6B81; text-align: center; padding: 5px;}
