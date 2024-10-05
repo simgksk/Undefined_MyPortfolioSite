@@ -5,12 +5,6 @@
     font-style: normal;
 }
 
-#skills > .skills-text{
-    text-align: center;
-    font-size: 50px;
-    padding-top: 50px;
-}
-
 #skills > .skills-btn{
     margin: auto;
     display: flex;
@@ -35,11 +29,11 @@ font-family: 'KCC-Hanbit';
 }
 
 #skills > .skills-btn > button:hover{
-    box-shadow:3px 3px 3px #253f65;
+    box-shadow:3px 3px 3px #3e4f67;
 }
 
 #skills > .skills-btn > button:active{
-    background-color: #253f65;
+    background-color: #3e4f67;
 }
 
 #skills > section{

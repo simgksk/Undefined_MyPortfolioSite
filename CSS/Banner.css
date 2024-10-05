@@ -27,6 +27,11 @@
   }
 
   .typing-text{
+    background-image: url(https://img.freepik.com/premium-vector/soft-gray-abstract-watercolor-background_3590-173.jpg);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+
     font-family: 'Cafe24ClassicType-Regular';
     font-size: 80px;
     text-align: center;
@@ -75,9 +80,16 @@
     
     padding: 20px 50px 20px 50px;
     background-color: #4a5b73;
+    box-shadow:3px 5px 3px #3e4f67;
     border-radius: 100px;
 
     width: 150px;
+
+    cursor: pointer;
+  }
+
+  .more-button:hover{
+    background-color: #3e4f67;
   }
 
   
