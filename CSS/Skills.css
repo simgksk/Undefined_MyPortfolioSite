@@ -1,13 +1,14 @@
+@font-face {
+    font-family: 'KCC-Hanbit';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2403-2@1.0/KCC-Hanbit.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
 #skills > .skills-text{
     text-align: center;
     font-size: 50px;
     padding-top: 50px;
-}
-
-#skills > p{
-    font-size: 20px;
-    text-align: center;
-    padding: 10px;
 }
 
 #skills > .skills-btn{
@@ -17,14 +18,15 @@
 }
 
 #skills > .skills-btn > button{
+font-family: 'KCC-Hanbit';
+
     width: 200px;
     height: 70px;
     
     margin: 10px;
     
-    font-family: 'EF_Rebecca';
-    color: #FCF7F4;
-    background-color: rgba(70, 104, 155, .5);
+    color: #E4E9EB;
+    background-color: #5C6B81;
     box-shadow:0px 3px 5px rgb(70, 104, 155);
     border-radius: 10px;
     border: none;
@@ -33,11 +35,11 @@
 }
 
 #skills > .skills-btn > button:hover{
-    box-shadow:3px 3px 3px rgb(37, 63, 101);
+    box-shadow:3px 3px 3px #253f65;
 }
 
 #skills > .skills-btn > button:active{
-    background-color: #46689b;
+    background-color: #253f65;
 }
 
 #skills > section{
@@ -61,4 +63,8 @@
 
 #skills > section > div > div > h1{
     size: 10px;
+}
+
+#skills > section > div > div > p{
+    text-shadow: -1px 0px #5C6B81, 0px 1px #5C6B81, 1px 0px #5C6B81, 0px -1px #5C6B81;;
 }

@@ -4,12 +4,6 @@
     padding-top: 50px;
 }
 
-#Channels > p{
-    font-size: 20px;
-    text-align: center;
-    padding: 10px;
-}
-
 #Channels > .Channels-container{
     display: flex;
     justify-content: center;
