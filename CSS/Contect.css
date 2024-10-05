@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'KCC-Hanbit';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2403-2@1.0/KCC-Hanbit.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+#contect > .contect-layout{
+    width: 800px;
+    height: 400px;
+
+    background-color: #5C6B81;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+}
+
+#contect > .contect-layout > .main-title{
+    padding: 0 20px 0 20px;
+}
+
+#contect > .contect-layout > .main-title > .sub-title{
+    padding-top: 0;
+    margin-top: 0;
+}
+
+#contect > .contect-layout > .form{
+    padding: 30px;
+}
+
+#contect > .contect-layout > .form > span{
+    padding: 10px;
+    /* margin: 10px; */
+}
+
+#contect > .contect-layout > .form > input, textarea{
+    font-family: 'KCC-Hanbit';
+    
+    width: 350px;
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    border: 0;
+
+    border-radius: 5px;
+    font-size: 12px;
+    outline: none;
+
+    background-color: #f5f5f5;
+    color: #5C6B81;
+}
+
+#contect > .contect-layout > .form > textarea{
+    resize: none;
+    height: 100px;
+}
+
+#contect > .contect-layout > .form > #send-btn{
+    font-family: 'KCC-Hanbit';
+
+    padding: 10px;
+    margin-left: 300px;
+    border: 0;
+
+    border-radius: 5px;
+
+    width: auto;
+
+    background-color: #4a5b73;
+    color: #f5f5f5;
+
+    cursor: pointer;
+}
+
+#contect > .contect-layout > .form > #send-btn:active{
+    background-color: #3b4b61;
+}

@@ -11,9 +11,10 @@
     <link rel="stylesheet" href="../CSS/Skills.css">
     <link rel="stylesheet" href="../CSS/Projects.css">
     <link rel="stylesheet" href="../CSS/Channels.css">
+    <link rel="stylesheet" href="../CSS/Contect.css">
 
     <script src="../JS/SkillsButton.js"></script>
-    <!-- <script src="../JS/Scroll.js"><    /script> -->
+    <script src="../JS/Form.js"></script>
     <title>HANA SIM</title>
 </head>
 <body>
@@ -306,7 +307,7 @@
                 </button>
 
                 <div class="Projects-box">
-                    
+                    <h1>작성 중입니다...</h1>
                 </div>
 
                 <button  class="right">
@@ -372,13 +373,35 @@
         </div>
 
         <div id="contect" class="container">
-            <div class="main-title">
-                <span class="hilight">Contect</span>
+            <div class="contect-layout">
+                <div class="main-title">
+                    Contect
+                    <p class="sub-title">피드백은 언제나 환영입니다 :)</p>
+                </div>
+
+                <form class="form" id="contactForm">
+    
+                    <span>이름</span>
+                    <input name="name" type="text" id="name" placeholder="Name">
+
+                    <span>이메일</span>
+                    <input name="email" type="email" id="email" placeholder="E-mail">
+
+                    <span>문의 내용</span>
+                    <textarea name="message" placeholder="Message"></textarea>
+
+                    <button id="send-btn">
+                        메일 보내기
+                    </button>
+                </form>
+
+                <p id="responseMessage"></p>
             </div>
         </div>
         
         <div class="container">
             <h1>Thanks for watching!</h1>
+            <h4>본 페이지는 개인 포트폴리오용으로 제작되었습니다.</h4>
             <h6>Copyright(c)2024 by SIMHANA</h6>
         </div>
     </div>
