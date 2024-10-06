@@ -31,7 +31,7 @@ a{
 
 .navbar-logo{
     font-size: 24px;
-    padding-left: 10px;
+    padding-left: 15px;
 }
 
 .navbar-menu{
@@ -41,5 +41,5 @@ a{
 }
 
 .navbar-menu li{
-    padding: 8px 12px;
+    padding: 5px 15px;
 }
