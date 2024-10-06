@@ -14,14 +14,17 @@
     margin: 20px;
     display: flex;
 
-    cursor: pointer;
-
+    
     align-items: center;
-
+    
+    transition: .3s;
 }
 
 #Channels > .Channels-container > a > div:hover{
     background-color: #CDD7DA;
+    width: 460px;
+    height: 220px;
+    cursor: pointer;
 }
 
 #Channels > .Channels-container > a > div > img{
@@ -32,11 +35,11 @@
 
 #Channels > .Channels-container> a > div > div > h1{
     color: #4a5b73;
-    font-size: 20px;
+    font-size: 24px;
     display: block;
 }
 
 #Channels > .Channels-container > a > div > div > p{
     color: #5c6b81;
-    font-size: 10px;
+    font-size: 12px;
 }

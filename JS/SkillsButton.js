@@ -19,7 +19,7 @@ function showContent(content) {
   if (content === "language") {
     language.style.display = "flex";
   } else if (content === "tool") {
-    tool.style.display = "flex";
+      tool.style.display = "flex";
   } else if (content === "document"){
       doc.style.display = "flex";
   } else if(content === "design"){
@@ -28,19 +28,3 @@ function showContent(content) {
       community.style.display = "flex";
   }
 }
-
-// 버튼 클릭 시 색상 변경
-// const nonClick = document.querySelectorAll(".non-click");
-
-// function handleClick(event) {
-//   // div에서 모든 "click" 클래스 제거
-//   nonClick.forEach((e) => {
-//     e.classList.remove("click");
-//   });
-//   // 클릭한 div만 "click"클래스 추가
-//   event.target.classList.add("click");
-// }
-
-// nonClick.forEach((e) => {
-//   e.addEventListener("click", handleClick);
-// });
