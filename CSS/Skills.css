@@ -35,12 +35,13 @@ font-family: 'KCC-Hanbit';
 
 #skills > section{
     justify-content: center;
+    white-space: initial;
 }
 
 #skills > section > div{
     display: flex;
-    padding: 30px;
-    margin: 50px;
+    padding: 50px;
+    margin: 100px 0 100px 0;
 }
 
 #skills > section > div > img{
