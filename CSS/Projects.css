@@ -1,47 +1,46 @@
-#Projects > .Projects-container{
+/*#Projects > .Projects-container{
     display: flex;
     align-items: center;
+}*/
+
+#Projects > .Projects-container > .slide-wrap{
+    position: relative;
+    width: 400px;
+
+    margin: auto;
+    padding-bottom: 30px;
 }
 
-#Projects > .Projects-container > button{
+#Projects > .Projects-container > .slide-wrap > .slide-box{
+    width: 100%;
+
+    margin: auto;
+
+    overflow-x: hidden;
+}
+
+#Projects > .Projects-container > .slide-wrap > .slide-box > .slide-list > .slide-content{
+    display: table;
+    float: left;
+
+    width: 400px;
+    height: 400px;
+}
+
+#Projects > .Projects-container > .slide-wrap > .slide-btn-box > button{
     border: 0;
     background-color: transparent;
     cursor: pointer;
     opacity: .5;
 }
 
-#Projects > .Projects-container > button:active{
+#Projects > .Projects-container > .slide-wrap > .slide-btn-box > button:active{
     opacity: 1;
 }
 
-#Projects > .Projects-container > button > img{
+#Projects > .Projects-container > .slide-wrap > .slide-btn-box > button > img{
     width: 80px;
     height: 80px;
 
     filter: invert();
-}
-
-#Projects > .Projects-container > button > .left{
-    margin-left: 50px;
-}
-
-#Projects > .Projects-container > button > .right{
-    margin-right: 50px;
-}
-
-#Projects > .Projects-container > .Projects-box{
-    width: 800px;
-    height: 350px;
-
-    background-color: #f5f5f5;
-    border-radius: 10px;
-    box-shadow: 12px 12px 2px 1px #4a5b73;
-
-    padding: 50px;
-    margin: auto;
-}
-
-#Projects > .Projects-container > .Projects-box > h1{
-    color: #5C6B81;
-    text-align: center;
 }
