@@ -1,29 +1,3 @@
-// 페이지가 로드될 때 로컬 스토리지에서 데이터를 불러와 폼에 채움
-window.addEventListener('DOMContentLoaded', function() {
-    if (localStorage.getItem('name')) {
-        document.getElementById('name').value = localStorage.getItem('name');
-    }
-    if (localStorage.getItem('email')) {
-        document.getElementById('email').value = localStorage.getItem('email');
-    }
-    if (localStorage.getItem('message')) {
-        document.getElementById('message').value = localStorage.getItem('message');
-    }
-});
-
-// 폼 입력 시 데이터를 로컬 스토리지에 저장
-document.getElementById('name').addEventListener('input', function() {
-    localStorage.setItem('name', this.value);
-});
-
-document.getElementById('email').addEventListener('input', function() {
-    localStorage.setItem('email', this.value);
-});
-
-document.getElementById('message').addEventListener('input', function() {
-    localStorage.setItem('message', this.value);
-});
-
 document.getElementById('contactForm').addEventListener('submit', function(event) {
     event.preventDefault(); // 기본 폼 제출 동작 방지
 
@@ -33,7 +7,7 @@ document.getElementById('contactForm').addEventListener('submit', function(event
     const scrollPosition = window.scrollY;
 
     // fetch API로 폼 데이터 전송
-    fetch('https://script.google.com/macros/s/AKfycbzdpMPXTzGNcqtjS1yvUzzTLQatSAcFZGuP1567QgFwbM9XgY-UxbAjBRROuXzTSqGu9A/exec', {
+    fetch('https://script.google.com/macros/s/AKfycbwBz4bi_53wfNBehmjsG-so5W32X9UmFuwIMfMEcO6rEStwnIVehuLlzcSSHDJ2dSSJvg/exec', {
         method: 'POST',
         body: formData
     })
