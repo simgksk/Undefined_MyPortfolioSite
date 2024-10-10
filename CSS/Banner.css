@@ -19,11 +19,15 @@
   }
 
   .typing{
-    display: flex;
-    justify-content: center;
+    font-family: 'Cafe24ClassicType-Regular';
+    font-size: 80px;
+    text-align: center;
     align-items: center;
-    padding: 20px;
-    margin: 0;
+    justify-content: center;
+    display: flex;
+
+    padding: 50px;
+    margin: 50px;
   }
 
   .typing-text{
@@ -31,31 +35,20 @@
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
-
-    font-family: 'Cafe24ClassicType-Regular';
-    font-size: 80px;
-    text-align: center;
-    border-right: 3px solid white;
-    animation: blink .5s infinite, typing 3s steps(22);
     white-space: nowrap;
-    overflow: hidden;
+  }
+
+  .blink{
+    animation: blink .5s infinite;
+    font-size: 83px;
   }
 
   @keyframes blink{
-    50%{
-      border-color: transparent;
+    to{
+      opacity: 0;
     }
   }
 
-  @keyframes typing{
-    from{
-      width: 0;
-    }
-    to{
-      width: 100%;
-    }
-  }
-  
   .contour{
     border-top: 5px solid #CDD7DA;
     margin: auto;
