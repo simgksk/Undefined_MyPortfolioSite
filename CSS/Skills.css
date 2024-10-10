@@ -28,11 +28,6 @@ font-family: 'KCC-Hanbit';
     cursor: pointer;
 }
 
-#skills > .skills-btn > button:hover{
-    box-shadow:3px 3px 3px #3e4f67;
-    background-color: #3e4f67;
-}
-
 #skills > section{
     justify-content: center;
     white-space: initial;
