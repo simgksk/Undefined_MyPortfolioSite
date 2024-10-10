@@ -32,10 +32,12 @@ function showContent(content, button) {
   if (activeButton) {
     activeButton.style.backgroundColor = "";
     activeButton.style.color = "";
+    activeButton.style.boxShadow = "";
   }
 
   button.style.backgroundColor = "#f5f5f5";
   button.style.color = "#5C6B81"
+  button.style.boxShadow = "0px 3px 5px #5C6B81"
 
   activeButton = button;
 }
