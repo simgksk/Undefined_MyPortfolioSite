@@ -5,20 +5,20 @@
   font-style: normal;
 }
 
-  #banner-layout{
+  #banner{
     display: block;
     margin: auto;
     flex-direction: column;
     padding: 50px;
   }
 
-  .banner{
+  .banner-container{
     margin: auto;
     display: block;
     
   }
 
-  .typing-banner{
+  .typing{
     display: flex;
     justify-content: center;
     align-items: center;
