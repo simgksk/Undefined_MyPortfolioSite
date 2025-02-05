@@ -62,7 +62,7 @@ html{
     position: fixed;
 
     bottom: 15px;
-    left: 15px;
+    right: 15px;
 }
 
 .top > a > button{
